@@ -1,0 +1,25 @@
+{
+  "name": "leet-code-problem",
+  "version": "1.0.0",
+  "description": "leet code problem solving and unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navink2015/leet-code-problem.git"
+  },
+  "keywords": [
+    "DSA"
+  ],
+  "author": "navin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navink2015/leet-code-problem/issues"
+  },
+  "homepage": "https://github.com/navink2015/leet-code-problem#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
