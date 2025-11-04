@@ -6,7 +6,7 @@ var twoSum=(nums, target)=>{
     const hasSet = new Map();
     for(var i=0; i<nums.length; i++) {
         const reminderValue =  target - nums[i] ;
-        console.log(hasSet, reminderValue)
+        // console.log(hasSet, reminderValue)
         if(hasSet.has(reminderValue)){
             return [i, hasSet.get(reminderValue)]
         }
@@ -15,7 +15,7 @@ var twoSum=(nums, target)=>{
 }
 
 const result = twoSum(nums, target);
-console.log(result);
+// console.log(result);
 
 // time complexity 0(n)
 // space complexity o(n)

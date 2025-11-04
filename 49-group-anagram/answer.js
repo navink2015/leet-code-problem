@@ -17,7 +17,7 @@ var groupAnagrams = function(strs) {
         }
         const key = count.join('#')
         
-        console.log(key, count.join('#'))
+        // console.log(key, count.join('#'))
         if(!hasMap.has(key)){
              hasMap.set(key, []);
         }
