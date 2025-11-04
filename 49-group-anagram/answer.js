@@ -13,7 +13,6 @@ var groupAnagrams = function(strs) {
 
         for(var j=0; j<strs[i].length; j++){
           const a =  strs[i][j].charCodeAt(0)-'a'.charCodeAt(0)
-          console.log(a)
           count[a] = count[a]+1
         }
         const key = count.join('#')
@@ -26,8 +25,5 @@ var groupAnagrams = function(strs) {
     }
     return Array.from(hasMap.values())
 };
-// const groupArray = ["bdddddddddd","bbbbbbbbbbc"]
-
-// console.log(groupAnagrams(groupArray))
 
 module.exports= groupAnagrams;
