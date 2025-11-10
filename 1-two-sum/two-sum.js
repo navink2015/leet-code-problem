@@ -17,5 +17,6 @@ var twoSum=(nums, target)=>{
 const result = twoSum(nums, target);
 // console.log(result);
 
+
 // time complexity 0(n)
 // space complexity o(n)
