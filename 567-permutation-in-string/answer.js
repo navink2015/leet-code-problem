@@ -4,7 +4,7 @@
  * @return {boolean}
  */
 var checkInclusion = function(s1, s2) {
-    if(s1.length > s2.length) false;
+    if(s1.length > s2.length) return false;
     const hasMapS1 = new Array(26).fill(0);
     const hasMapS2 = new Array(26).fill(0);
 
