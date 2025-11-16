@@ -8,7 +8,6 @@ var maxProfit = function(prices) {
     for(let i=0; i<prices.length; i++){
         if(prices[i]< minPrice){
             minPrice=prices[i]
-            console.log('i',i, {minPrice:prices[i], profit}, prices[i])
         }
         profit = Math.max(profit, prices[i]-minPrice)
     }
